@@ -81,9 +81,9 @@ const AnimatedMenuItem = ({ text, href }) => (
               variants={menuVariants}
               transition={{ duration: 0.3 }}
             >
-          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Work</FlipLink></li>
-          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Projects</FlipLink></li>
-          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Contact</FlipLink></li>
+          <li className='text-1xl lg:text-2xl text-black uppercase font-bold'><FlipLink href="#">Work</FlipLink></li>
+          <li className='text-1xl lg:text-2xl text-black uppercase font-bold'><FlipLink href="#">Projects</FlipLink></li>
+          <li className='text-1xl lg:text-2xl text-black uppercase font-bold'><FlipLink href="#">Contact</FlipLink></li>
 
 
 
