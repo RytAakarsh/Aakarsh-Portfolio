@@ -53,7 +53,7 @@ const AnimatedMenuItem = ({ text, href }) => (
 );
   
     return (
-        <nav className='relative z-50 flex justify-between p-4 bg-black lg:bg-transparent '>
+        <nav className='relative z-50 flex justify-between p-4 bg-[#191818] w-full'>
             {/* right part */}
 
              <div>
