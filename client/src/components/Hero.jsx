@@ -2,6 +2,7 @@ import react from "react";
 import { motion } from "framer-motion";
 import { FlipLink } from "./TextAnimation";
 import './WavingHand.css';
+import { NameBold } from "./NameBold";
 
 export const Hero = () => {
     return (
@@ -12,8 +13,8 @@ export const Hero = () => {
              </div>
 
              {/* Name */}
-             <div>
-                
+             <div className="px-4 py-2">
+                <NameBold name="Aakarsh  Mishra" />
              </div>
 
              {/* Image */}
