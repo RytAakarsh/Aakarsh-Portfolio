@@ -2,6 +2,7 @@ import react , { useState } from 'react';
 import { IoCode } from "react-icons/io5";
 import { IoCodeSlash } from "react-icons/io5";
 import { motion, AnimatePresence } from 'framer-motion';
+import { FlipLink } from './TextAnimation';
 
 
 function Navbar () {
@@ -80,9 +81,9 @@ const AnimatedMenuItem = ({ text, href }) => (
               variants={menuVariants}
               transition={{ duration: 0.3 }}
             >
-          <motion.li className="cursor-pointer transition font-semibold lg:font-bold"><AnimatedMenuItem text="Work" href="#" /></motion.li>
-          <motion.li className="cursor-pointer transition font-semibold lg:font-bold"><AnimatedMenuItem text="Projects" href="#" /></motion.li>
-          <motion.li className="cursor-pointer transition font-semibold lg:font-bold"><AnimatedMenuItem text="Contact" href="#" /></motion.li>
+          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Work</FlipLink></li>
+          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Projects</FlipLink></li>
+          <li className='text-1xl text-black uppercase font-bold'><FlipLink href="#">Contact</FlipLink></li>
 
 
 
